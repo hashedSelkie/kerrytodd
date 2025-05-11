@@ -35,7 +35,7 @@ jobs:
     - name: Build and push to dockerhub
       uses: docker/build-push-action@v5
       with:
-       context: repo/kerrytodd
+       context: repo
        push: true
        tags: ${{ env.docker_image_tag }}
 
