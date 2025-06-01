@@ -11,7 +11,7 @@ FROM nginxinc/nginx-unprivileged:1.23-alpine as final
 
 USER root
 
-COPY --from=builder /usr/src/app/dist/kerrytodd /usr/share/nginx/html
+COPY --from=builder /usr/src/app/dist/kerry-todd /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 USER nginx
