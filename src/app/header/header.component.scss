@@ -1,6 +1,9 @@
 .header-wrapper{
     max-width: fit-content;
     margin: auto;
+    a, a:hover{
+        text-decoration: none;
+    }
     h1{
         margin: 0;
         text-align: center;
@@ -21,10 +24,12 @@
 }
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     .header-wrapper{
         h1{
             font-size: 40px;
+            text-shadow: 4px 1px #C7B69C;
+            padding: 20px 0 10px 0;
         }
         p{
             text-align: center;
