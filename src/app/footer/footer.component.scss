@@ -1,0 +1,17 @@
+.footer-wrapper{
+    background-color: #363535;
+    //position: absolute;
+    margin-top: 30px;
+    div{
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        height: fit-content;
+        padding: 10px;
+        width: 200px;
+        svg{
+            width: auto;
+            height: 95px;
+        }
+    }
+}
