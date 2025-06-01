@@ -7,5 +7,20 @@
     img{
         border-radius: 100%;
         margin-right: 30px;
+        width: 100%;
+        max-width: 150px;;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .about-wrapper{
+        flex-direction: column;
+        img{
+            border-radius: 100%;
+            margin-right: 30px;
+            margin: auto;
+            display: block;
+        }
     }
 }
